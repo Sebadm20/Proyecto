@@ -1,0 +1,39 @@
+
+/*Mobile*/
+
+@media only screen and (max-width: 400px){
+    body{
+        background-color: #f09a9d;
+    }
+
+    .human{
+        width: 100%;
+    }
+    
+}
+
+/*Tablet*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px){
+    body{
+        background-color: #f5cf8e;
+    }
+
+    .header-container{
+        display: none;
+    }
+}
+
+/*Desktop*/
+
+@media only screen and (min-width: 961px){
+    body{
+        background-color: #b2d6ff;
+    }
+    .human{
+        width: 100%;
+    }
+    .header-container{
+        height: 100px;
+    }
+}
