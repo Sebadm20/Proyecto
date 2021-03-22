@@ -20,7 +20,10 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
         
-        
+        <!-- BOX Icons -->
+
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
         <!-- Icons -->
         
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -37,34 +40,39 @@
     <!-- header-container -->
  
 <header class="header-container">
-  <div class="div-logo">
-    <img src="images/logo.jpeg" alt="" class="logo">
-  </div>
-  <div>
-    <nav class="nav-header"> 
-      <a href="" class="menu-header" >Inicio</a>
-      <a href="nosotros.html" target="_blank">Nosotros</a>  
-      <a href="mapa.html" target="_blank">Localidad</a>  
-      <a href="contacto.html" target="_blank" >Contacto</a>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <div class="div-logo">
+        <img src="images/logo.jpeg" alt="" class="logo">
+      </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item px-5">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item 5">
+                    <a class="nav-link" href="#nosotros">Nosotros</a>
+                </li>
+                <li class="nav-item 5">
+                    <a class="nav-link" href="#mapa">Mapa</a>
+                </li>
+                <li class="nav-item 5">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+                <!-- <li class="nav-item 5">
+                    <a class="nav-link text-gold" href="#">Start a project</a>
+                </li> -->
+            </ul>
+        </div>
     </div>
-      <!-- <div class="buscador">
-        <i class="fas fa-search"></i>
-        <input type="text" placeholder="Search..">
-      </div> -->
-    </nav>
-
-
-
-
+</nav>
 </header>
 
-
-
-
-<!-- <h2>Cltx team</h4> -->
-<br>
-<!-- <h6>Que es la calistenia?</h6> -->
-
+<section class="seccion-negra" id="inicio">
 
 <div class="row">
   <div class="col-md-5 offset-1">
@@ -92,36 +100,193 @@
   </div>
 </div>
 <div class="col-md-6">
-  <p>Cada día es más común encontrar en los parques y en el paisaje urbano instalaciones y zonas donde practicar calistenia. Grupos de jóvenes, y a veces no tan jóvenes, se concentran para elevar su cuerpo entre barras mientas hacen piruetas y figuras. Calistenia es una palabra que procede del griego Kallos, belleza, y sthenos, fortaleza. Se trata de un sistema de ejercicios basado en el peso del propio cuerpo y que trabaja grandes grupos musculares para alcanzar la belleza del cuerpo en movimiento.
+  <p class="lead text-muted">Calistenia es una palabra que procede del griego Kallos, belleza, y sthenos, fortaleza. Se trata de un sistema de ejercicios basado en el peso del propio cuerpo y que trabaja grandes grupos musculares para alcanzar la belleza del cuerpo en movimiento.
   Dentro del entrenamiento con el propio cuerpo hay diferentes modalidades. Desde la gimnasia deportiva que es la más técnica y rigurosa hasta el «Street Workout», término en inglés, que define al entrenamiento callejero practicado en parques, barras y paralelas.
+  Los ejercicios más comunes de este tipo de entrenamiento son las flexiones de codo, las dominadas, los dips, conocidos como fondos, las sentadillas o los abdominales. Una vez controlados estos ejercicios se avanza con giros, saltos y figuras como la bandera humana o las planchas.
   </p>
   
 </div>
 </div>
-  
-<br>
-  <!-- <section class="container-circle">
-    <div class="circle0">
-      <h2 class="textoo">Calistenix</h1>
+<div class="container">
+  <div class="row">
+      <div class="col-md-6">
+          <h2 class="text-light">Ejercicios</h2>
+          <p class="lead text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero assumenda quis tempore eos eaque?.
+              in a good company.</p>
+          <div class="portfolio-item mt-6">
+              <a href="#">
+                  <img src="images/portfolio-01.jpg" class="img-fluid">
+                  <div class="portfolio-details bg-light p-4">
+                      <h4 class="text-dark">Ejemplos y eventos</h4>
+                      <p class="text-muted mb-0">Comeptencias del team de calistenixarg.</p>
+                  </div>
+              </a>
+          </div>
+          <div class="portfolio-item mt-6 mb-6">
+              <a href="#">
+                  <img src="images/portfolio-02.jpg" class="img-fluid">
+                  <div class="portfolio-details bg-light p-4">
+                      <h4 class="text-dark">Esponsors</h4>
+                      <p class="text-muted mb-0">Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+              </a>
+          </div>
+      </div>
+      <div class="col-md-6">
+          <div class="portfolio-item">
+              <a href="#">
+                  <img src="images/portfolio-03.jpg" class="img-fluid">
+                  <div class="portfolio-details bg-light p-4">
+                      <h4 class="text-dark">Lorem, ipsum dolor?</h4>
+                      <p class="text-muted mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea iusto sequi facere?</p>
+                  </div>
+              </a>
+          </div>
+          <div class="portfolio-item mt-6">
+              <a href="#">
+                  <img src="images/portfolio-04.jpg" class="img-fluid">
+                  <div class="portfolio-details bg-light p-4">
+                      <h4 class="text-dark">2021 trends </h4>
+                      <p class="text-muted mb-0">Ejemplos, etc</p>
+                  </div>
+              </a>
+          </div>
+      </div>
+  </div>
+</div>
+</section>
+                                <!-- FIN SECTION INICO  -->
+
+
+<!-- INICIO SECTION NOSOTROS -->
+
+<section class="seccion-blanca" id="nosotros">
+  <div class="row">
+
+    <div class="col-md-3 offset-1">
+        <h1 class="titulo-nosotros">Quienes Somos?</h1>
+        <p class="paragraph-black">Somos un equipo de calistenia en Argentina que nos dedicamos a entrenar en plazas o parques con nuestro propio peso corporal</p>
+        <p>Arrancamos como un grupo de desconocidos y a medida que fuimos cruzandonos en los entrenamientos decidimos crear nuestro propio equipo.
+        </p>
     </div>
-    <div class="circle1"> ARG</div>
-    <div class="circle2"></div>
-     <div class="circle3"></div>
-    <div class="circle4"></div>
-    <div class="circle5"></div> -->
-<!-- </section>  -->
+
+    <div class="col-md-5 offset-2">
+
+    <img src="images/Frontlever-Cltx.jpeg" alt="" class="frontlever-nos">
+
+    </div>       
+</div>
 
 
- <p>Habitualmente se confunde con el Freestyle que es la modalidad que podría considerarse como la gimnasia deportiva de la calle en la que se combinan los movimientos estáticos con los dinámicos y que suele ser la que atrae a más jóvenes. A estos diferentes tipos hay que sumar la calistenia lastrada, como su propio nombre indica se trata de hacerlo sumando un lastre al peso del cuerpo.</p>
+
+<!-- 
+<div class="row">
+
+<div class="col-md-5 offset-1">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dpaokzJyuyM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
+    <div class="col-md-6">
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-s6P_cg-pnU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+</div> -->
 
 
-<p>Los ejercicios más comunes de este tipo de entrenamiento son las flexiones de codo, las dominadas, los dips, conocidos como fondos, las sentadillas o los abdominales. Una vez controlados estos ejercicios se avanza con giros, saltos y figuras como la bandera humana o las planchas.</p>
+</section>
 
+                                <!-- FIN SECTION NOSOTROS  -->
 
+<!-- INICIO SECTION MAPA -->
+
+<section class= "seccion-negra" id="mapa">
+
+  <!-- <h1>Encontranos de Lunes a Viernes a partir de las 16:00hs</h1> -->
+
+   
+  <div class="row">
+      <div class="titulo-mapa">
+    <h2 class= "lead text-muted p-5">Podes encontrarnos entrenando en:</h2>
+  
+      <div class="col-md-6 p-5" class="mapa">
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52591.28089366014!2d-58.54165331066846!3d-34.52936664071577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6ad5df27b3b%3A0xb31979a45300fad2!2sVicente%20L%C3%B3pez%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1610805467238!5m2!1ses-419!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+</section>
+
+                                <!-- FIN SECTION MAPA  -->
+
+<!-- INICIO SECTION CONTACTO -->
+
+<section class="seccion-gris" id="contacto">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4">
+              <div class="blog-item position-relative rounded">
+                  <div class="blog-info position-absolute">
+
+                  </div>
+                  <img src="images/mexico.jpg" class="img-fluid rounded">
+
+              </div>
+              <h6 class="mt-5">Calistenix ARG</h6>
+          </div>
+
+          <div class="col-md-7 offset-md-1">
+              <h2>Si queres entrenar con nosotros</h2>
+              <p class="lead text-muted">Envianos un mensaje queremos conocerte</p>
+              <form class="mt-6">
+                  <div class="form-group">
+                      <input type="text" class="form-control" id="nombre" placeholder="Nombre completo">
+                  </div>
+                  <div class="form-group">
+                      <input type="email" class="form-control" id="email" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                      <input type="password" class="form-control" id="telefono" placeholder="telefono">
+                  </div>
+                  <div class="form-group">
+                      <textarea class="form-control" id="" placeholder="Escriba su duda" rows="5"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-secondary">Enviar</button>
+              </form>
+          </div>
+      </div>
+  </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-light py-4">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6">
+              <ul class="list-inline mb-0">
+                  <li class="list-inline-item lead mx-2"><a href="www.facebook.com" target="_blank"><img src="images/facebook.svg" class="img-fluid"></a></li>
+                  <li class="list-inline-item lead mx-2"><a href="https://instagram.com/calistenixarg" target="_blank"><img src="images/instagram.svg" class="img-fluid"></a></li>
+                  <li class="list-inline-item lead mx-2"><a href="https://youtube.com" target="_blank"><img src="images/youtube.svg" class="img-fluid"></a></li>
+                  <li class="list-inline-item lead mx-2"><a href="#"><img src="images/dribbble.svg" class="img-fluid"></a></li>
+              </ul>
+          </div>
+          <div class="col-md-6 text-sm-right">
+              <small>CLTX <a></a>Calistenix Arg</small>
+          </div>
+      </div>
+  </div>
+</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
 
+  <!-- SCROLL REVEAL -->
+  <script src="https://unpkg.com/scrollreveal"></script>
     
 </body>
 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> -->
